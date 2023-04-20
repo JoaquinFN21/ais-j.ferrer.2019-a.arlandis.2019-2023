@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 import es.codeurjc.ais.book.OpenLibraryService;
 import es.codeurjc.ais.book.OpenLibraryService.BookData;
 
-@DisplayName("OpenLibraryService integration tests")
+@DisplayName("OpenLibraryServiceIntegrationTests")
 public class OpenLibraryServiceIntegrationTest {
 
     OpenLibraryService openLibraryService = new OpenLibraryService();
