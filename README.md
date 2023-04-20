@@ -8,7 +8,7 @@ Autor(es): Michel Maes Bermejo y Francisco Gortázar Bellas
 
 ## Desarrollo con (GitFlow/TBD)
 
-Una vez creados los workflows y funcionando estos, pasamos a crear la nueva funcionalidad utilizando (Gitflow o TBD):
+Una vez creadoos los workflows y funcionando estos, pasamos a crear la nueva funcionalidad utilizando (Gitflow o TBD):
 
 ```
 $ git clone ...
