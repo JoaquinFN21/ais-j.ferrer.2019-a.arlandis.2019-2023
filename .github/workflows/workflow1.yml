@@ -13,6 +13,6 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
     - name: Ejecuta pruebas unitarias
-      run: mvn test -Dtest=Unitarytests
+      run: mvn test -Dtest=*Unitary*
     - name: Ejecuta pruebas de integracion
-      run: mvn test -Dtest=Integrationtests
+      run: mvn test -Dtest=*Integration*
