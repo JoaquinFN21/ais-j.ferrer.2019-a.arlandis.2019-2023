@@ -13,6 +13,6 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
     - name: Ejecuta pruebas unitarias
-      run: mvn test -Dtest=*BookService Unitary tests*
+      run: mvn test -Dtest=*BookServiceUnitaryTests*
     - name: Ejecuta pruebas de integracion
-      run: mvn test -Dtest=*OpenLibraryService integration tests*
+      run: mvn test -Dtest=*OpenLibraryServiceIntegrationTests*
