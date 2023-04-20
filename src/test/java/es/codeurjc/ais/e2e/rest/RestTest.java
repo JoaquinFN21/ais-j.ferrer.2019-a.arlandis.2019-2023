@@ -11,7 +11,7 @@ import org.springframework.boot.test.web.server.LocalServerPort;
 import io.restassured.RestAssured;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-@DisplayName("REST tests")
+@DisplayName("RESTtests")
 public class RestTest {
 
     @LocalServerPort
