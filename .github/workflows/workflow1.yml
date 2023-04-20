@@ -1,0 +1,18 @@
+on:
+  push:
+    branches:
+    - feature/*
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up JDK 17
+      uses: actions/setup-java@v3
+      with:
+          distribution: 'temurin'
+          java-version: '17'
+    - name: Ejecuta pruebas unitarias
+      run: mvn test -Dtest=*BookService Unitary tests*
+    - name: Ejecuta pruebas de integracion
+      run: mvn test -Dtest=*OpenLibraryService integration tests*
