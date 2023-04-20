@@ -14,7 +14,6 @@ import es.codeurjc.ais.review.Review;
 import es.codeurjc.ais.review.ReviewRepository;
 import es.codeurjc.ais.review.ReviewService;
 
-@DisplayName("Unitarytests")
 public class ReviewServiceUnitaryTest {
 
     @Test
