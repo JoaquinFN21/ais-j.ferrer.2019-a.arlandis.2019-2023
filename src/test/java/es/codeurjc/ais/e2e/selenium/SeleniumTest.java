@@ -27,13 +27,13 @@ public class SeleniumTest {
 	@BeforeAll
 	public static void setupClass() {
 		WebDriverManager.chromedriver().setup();
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--headless");
 	}
 
 	@BeforeEach
 	public void setupTest() {
-        this.driver = new ChromeDriver(options);
+        	ChromeOptions options = new ChromeOptions();
+		options.addArguments("--headless");
+        	this.driver = new ChromeDriver(options);
 	}
 
 	@AfterEach
