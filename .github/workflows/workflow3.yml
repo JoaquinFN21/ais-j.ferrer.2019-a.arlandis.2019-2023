@@ -14,14 +14,11 @@ jobs:
           java-version: '17'
       - name: Run tests
         run: mvn test
-      - name: Generate tag
-        run: echo "tag=$(date +'%Y%m%d.%H%M%S')" >> $GITHUB_OUTPUT
-        id: dev-fecha
       - name: Generate Docker image
-        run: mvn spring-boot:build-image -DskipTests -Dspring-boot.build-image.imageName=${{ secrets.DOCKERHUB_USERNAME }}/items:timestamp
+        run: mvn spring-boot:build-image -DskipTests -Dspring-boot.build-image.imageName=${{ secrets.DOCKERHUB_USERNAME }}/items:dev-$(date +'%Y%m%d.%H%M%S')
       - name: Login to DockerHub
         run: docker login -u "${{ secrets.DOCKERHUB_USERNAME }}" -p "${{ secrets.DOCKERHUB_TOKEN }}" 
       - name: Push image to DockerHub
-        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/items:timestamp
+        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/items:dev-$(date +'%Y%m%d.%H%M%S')
 
 
