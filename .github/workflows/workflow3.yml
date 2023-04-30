@@ -15,10 +15,10 @@ jobs:
       - name: Run tests
         run: mvn test
       - name: Generate Docker image
-        run: mvn spring-boot:build-image -DskipTests -Dspring-boot.build-image.imageName=${{ Repo2001 }}/items:v1
+        run: mvn spring-boot:build-image -DskipTests -Dspring-boot.build-image.imageName=${{ repo2001 }}/items:v1
       - name: Login to DockerHub
-        run: docker login -u "${{ Repo2001 }}" -p "${{ dckr_pat_nRDSnO9P4rWSpgM1aDy58B6n-SU }}" 
+        run: docker login -u "${{ repo2001 }}" -p "${{ dckr_pat_nRDSnO9P4rWSpgM1aDy58B6n-SU }}" 
       - name: Push image to DockerHub
-        run: docker push ${{ Repo2001 }}/items:v1
+        run: docker push ${{ repo2001 }}/items:v1
 
 
