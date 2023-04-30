@@ -16,7 +16,7 @@ jobs:
         run: mvn test
       - name: Generate tag
         run: echo "tag=$(date +'%Y%m%d.%H%M%S')" >> $GITHUB_OUTPUT
-        id: timestamp
+        id: dev-fecha
       - name: Generate Docker image
         run: mvn spring-boot:build-image -DskipTests -Dspring-boot.build-image.imageName=${{ secrets.DOCKERHUB_USERNAME }}/items:timestamp
       - name: Login to DockerHub
