@@ -87,7 +87,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<image>
-						<name>${dockerhub.user}/${project.artifactId}:${project.version}</name>
+						<name>${{secrets.DOCKERHUB_USERNAME}}/${project.artifactId}:${project.version}</name>
 					</image>
 				</configuration>
 			</plugin>
