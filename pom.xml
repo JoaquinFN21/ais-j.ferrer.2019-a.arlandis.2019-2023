@@ -6,9 +6,7 @@
 	<groupId>es.codeurjc.ais</groupId>
 	<artifactId>ais-j.ferrer.2019-a.arlandis.2019-2023</artifactId>
 	<version>0.2.0-SNAPSHOT</version>
-	<properties>
-		<dockerhub.user>repo2001</dockerhub.user>
-	</properties>
+	
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -16,6 +14,7 @@
 	</parent>
 
 	<properties>
+		<dockerhub.user>repo2001</dockerhub.user>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>17</java.version>
 		<selenium.version>4.8.3</selenium.version>
