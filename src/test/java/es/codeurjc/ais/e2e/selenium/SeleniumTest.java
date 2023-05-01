@@ -32,7 +32,7 @@ public class SeleniumTest {
 	@BeforeEach
 	public void setupTest() {
         	ChromeOptions options = new ChromeOptions();
-		options.addArguments("--headless");
+		      options.addArguments("--headless");
         	this.driver = new ChromeDriver(options);
 	}
 
