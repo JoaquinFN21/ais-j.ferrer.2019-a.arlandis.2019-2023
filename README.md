@@ -4,7 +4,7 @@ Autor(es): Michel Maes Bermejo y Francisco Gortázar Bellas
 
 [Repositorio (CAMBIAR ENLACE)](https://github.com/URJC-AIS/AIS-Practica-3-2023-template)
 
-[Aplicación Okteto (CAMBIAR ENLACE)](https://books-reviewer-repo2001.cloud.okteto.net/)
+[Aplicación Okteto (CAMBIAR ENLACE)](https://books-reviewer-joaquinfn21.cloud.okteto.net/)
 
 ## Desarrollo con (GitFlow/TBD)
 
