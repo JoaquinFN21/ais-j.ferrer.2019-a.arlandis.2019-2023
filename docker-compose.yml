@@ -1,5 +1,5 @@
 services:
   books-reviewer:
-    image: repo2001/okteto-anuncios:0..2.0-SNAPSHOT
+    image: repo2001/ais-j.ferrer.2019-a.arlandis.2019-2023:0.2.0-SNAPSHOT
     ports:
       - 8080:8080
