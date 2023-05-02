@@ -1,7 +1,7 @@
 on:
-  push:
-    branches:
-      - production
+  pull_request:
+          branches:
+                - main
 
 jobs:
   deploy_in_okteto:
