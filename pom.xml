@@ -5,7 +5,7 @@
 
 	<groupId>es.codeurjc.ais</groupId>
 	<artifactId>ais-j.ferrer.2019-a.arlandis.2019-2023</artifactId>
-	<version>0.2.0</version>
+	<version>0.2.0-SNAPSHOT</version>
 	
 	<parent>
 		<groupId>org.springframework.boot</groupId>
