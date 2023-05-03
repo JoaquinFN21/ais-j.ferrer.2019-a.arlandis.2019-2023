@@ -1,6 +1,6 @@
 # AIS-Practica-3-2023
 
-Autor(es): Michel Maes Bermejo y Francisco Gortázar Bellas
+Autor(es): Adrian Arlandis Alonso y Joaquin Ferrer Nuñez
 
 [Repositorio](https://github.com/JoaquinFN21/ais-j.ferrer.2019-a.arlandis.2019-2023)
 
